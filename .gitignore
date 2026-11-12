@@ -1,0 +1,5 @@
+node_modules/
+Cache/Database/dashboard.json
+Cache/SesiBot/
+Cache/Pembaruan/
+.env

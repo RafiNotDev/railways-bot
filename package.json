@@ -1,0 +1,94 @@
+{
+  "name": "Bot_Computer",
+  "version": "12.34.5",
+  "engines": {
+    "node": "20.x"
+  },
+  "resolutions": {
+    "sharp": "^0.33.5"
+  },
+  "description": "Bot Whatsapp Multi Devices Versi Computer By RafiBukanDeveloper",
+  "main": "./Perangkat_Keras/Power_Suply.js",
+  "type": "module",
+  "directories": {
+    "Komponen": "./Perangkat_Keras/Komponen",
+    "Perangkat_Lunak": "./Perangkat_Lunak",
+    "json": "./Storage/Json"
+  },
+  "scripts": {
+    "start": "node dashboard-server.js",
+    "dashboard": "node dashboard-server.js",
+    "bot:primary": "node ./Perangkat_Keras/Power_Suply.js --pairing"
+  },
+  "homepage": "https://github.com/RafiBukanDeveloper",
+  "author": {
+    "name": "RafiBukanDeveloper"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rafighucy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Rafighucy/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@adiwajshing/baileys": "https://github.com/RafiNotDev/BaileysSupremeFaster",
+    "cfonts": "^3.3.0",
+    "node-schedule": "^2.1.1",
+    "chalk": "^5.3.0",
+    "unzipper": "latest",
+    "got": "^12.5.3",
+    "sharp": "^0.33.5",
+    "canvas": "^2.11.2",
+    "knights-canvas": "^1.3.7-a",
+    "ssh2": "latest",
+    "yargs": "latest",
+    "fluent-ffmpeg": "^2.1.3",
+    "node-webpmux": "^3.1.1",
+    "formdata-node": "^4.3.2",
+    "pdfkit": "^0.15.0",
+    "undici": "^5.11.0",
+    "cheerio": "github:XM4ZE/cheerio",
+    "node-cron": "latest",
+    "novita-sdk": "latest",
+    "puppeteer": "^24.0.0",
+    "canvafy": "latest",
+    "@google/generative-ai": "^0.11.3",
+    "similarity": "^1.2.1",
+    "mongoose": "github:Automattic/mongoose",
+    "jimp": "^0.16.1",
+    "syntax-error": "^1.4.0",
+    "file-type": "^19.6.0",
+    "node-os-utils": "latest",
+    "human-readable": "^0.2.1",
+    "nodemailer": "^6.9.12",
+    "express": "^4.21.2",
+    "node-gtts": "latest",
+    "url-regex-safe": "^4.0.0",
+    "node-cache": "^5.1.2",
+    "@hapi/boom": "^10.0.0",
+    "js-beautify": "^1.15.4",
+    "awesome-phonenumber": "^2.64.0",
+    "crypto": "^1.0.1",
+    "javascript-obfuscator": "^4.1.0",
+    "megajs": "^1.3.0",
+    "jsdom": "^25.0.1",
+    "link-preview-js": "^3.0.12",
+    "lodash": "^4.17.21",
+    "lowdb": "^3.0.0",
+    "md5": "^2.3.0",
+    "mime-types": "^2.1.35",
+    "@vitalets/google-translate-api": "latest",
+    "moment-timezone": "^0.5.45",
+    "node-fetch": "^3.2.0",
+    "qrcode": "^1.5.0",
+    "js-confuser": "^1.7.3",
+    "qrcode-terminal": "^0.12.0",
+    "yt-search": "^2.10.4",
+    "webcrack": "beta"
+  },
+  "optionalDependencies": {
+    "wa-sticker-formatter": "^4.3.2"
+  }
+}

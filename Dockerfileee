@@ -1,0 +1,20 @@
+FROM node:20-bookworm-slim
+
+ENV NODE_ENV=production \
+    TZ=Asia/Jakarta \
+    PUPPETEER_SKIP_DOWNLOAD=1
+
+WORKDIR /app
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    python3 make g++ pkg-config ffmpeg \
+    libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY package*.json ./
+RUN npm install --legacy-peer-deps --no-audit --no-fund
+
+COPY . .
+
+EXPOSE 3000
+CMD ["npm", "start"]
